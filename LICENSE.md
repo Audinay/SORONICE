@@ -1,7 +1,18 @@
---SORONICE:v1
-
--- Instances:
-
+                                                                                                                                                                         
+                                                                                                                                                                     
+                                                                                                                                                                                 
+                                                                                                                                                                                       
+                                                                                                                                                                      
+      / / /                      / / /          ////////                                                                                                                          
+   /        /                 /        /        /       /                                                                                            
+   /        /                /          /       /         /                                                                                                    
+     /     /               /             /      /          /                                                                                                     
+       /                  /               /     /          /                                                                                                                       
+         /                /               /     /         /                                                                                                   
+           /               /              /     / / / / /                                                                                                          
+/           /               /           /       /        /                                                                                                                  
+ /         /                 /        /         /         /                                                                                                                       
+  ////////                    ///////           /          /                                                                                                                               
 local ScreenGui = Instance.new("ScreenGui")
 local PopUp_FRM = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
@@ -24,6 +35,9 @@ local UICorner_5 = Instance.new("UICorner")
 local Button_5 = Instance.new("TextButton")
 local UIGradient_6 = Instance.new("UIGradient")
 local UICorner_6 = Instance.new("UICorner")
+local Button_6 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local UIGradient_7 = Instance.new("UIGradient")
 
 --Properties:
 
@@ -35,8 +49,9 @@ PopUp_FRM.Parent = ScreenGui
 PopUp_FRM.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 PopUp_FRM.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PopUp_FRM.BorderSizePixel = 0
-PopUp_FRM.Position = UDim2.new(0.00476832688, 0, 0.132456362, 0)
+PopUp_FRM.Position = UDim2.new(0.00831441674, 0, 0.144314036, 0)
 PopUp_FRM.Size = UDim2.new(0.252932549, 0, 0.741124272, 0)
+PopUp_FRM.Visible = false
 
 UICorner.Parent = PopUp_FRM
 
@@ -175,9 +190,30 @@ UIGradient_6.Parent = Button_5
 
 UICorner_6.Parent = Button_5
 
+Button_6.Name = "Button"
+Button_6.Parent = ScreenGui
+Button_6.BackgroundColor3 = Color3.fromRGB(85, 255, 119)
+Button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_6.BorderSizePixel = 0
+Button_6.Position = UDim2.new(0.517154872, 0, 0.0118577071, 0)
+Button_6.Size = UDim2.new(0, 118, 0, 50)
+Button_6.Font = Enum.Font.SourceSansBold
+Button_6.Text = "Admin"
+Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button_6.TextScaled = true
+Button_6.TextSize = 100.000
+Button_6.TextStrokeTransparency = 1.110
+Button_6.TextWrapped = true
+
+UICorner_7.Parent = Button_6
+
+UIGradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(108, 191, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_7.Rotation = -90
+UIGradient_7.Parent = Button_6
+
 -- Scripts:
 
-local function EOGLKHB_fake_script() -- Button.InfiniteJumpButton 
+local function SZZYE_fake_script() -- Button.InfiniteJumpButton 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -222,8 +258,8 @@ local function EOGLKHB_fake_script() -- Button.InfiniteJumpButton
 	
 	
 end
-coroutine.wrap(EOGLKHB_fake_script)()
-local function PZXXRO_fake_script() -- Button.Tween 
+coroutine.wrap(SZZYE_fake_script)()
+local function YWEWUWH_fake_script() -- Button.Tween 
 	local script = Instance.new('LocalScript', Button)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -263,8 +299,8 @@ local function PZXXRO_fake_script() -- Button.Tween
 		end)
 	end)
 end
-coroutine.wrap(PZXXRO_fake_script)()
-local function FAGVAEM_fake_script() -- Button_2.Tween 
+coroutine.wrap(YWEWUWH_fake_script)()
+local function JVTJTSZ_fake_script() -- Button_2.Tween 
 	local script = Instance.new('LocalScript', Button_2)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -304,8 +340,8 @@ local function FAGVAEM_fake_script() -- Button_2.Tween
 		end)
 	end)
 end
-coroutine.wrap(FAGVAEM_fake_script)()
-local function FDYM_fake_script() -- Button_2.FlyButton 
+coroutine.wrap(JVTJTSZ_fake_script)()
+local function TPMMCSQ_fake_script() -- Button_2.FlyButton 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local button = script.Parent
@@ -419,8 +455,8 @@ local function FDYM_fake_script() -- Button_2.FlyButton
 	
 	
 end
-coroutine.wrap(FDYM_fake_script)()
-local function XOFS_fake_script() -- Button_3.NoclipButton 
+coroutine.wrap(TPMMCSQ_fake_script)()
+local function WLSPPAM_fake_script() -- Button_3.NoclipButton 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -469,8 +505,8 @@ local function XOFS_fake_script() -- Button_3.NoclipButton
 	
 	
 end
-coroutine.wrap(XOFS_fake_script)()
-local function KOIA_fake_script() -- Button_3.Tween 
+coroutine.wrap(WLSPPAM_fake_script)()
+local function NZOVHBY_fake_script() -- Button_3.Tween 
 	local script = Instance.new('LocalScript', Button_3)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -510,8 +546,8 @@ local function KOIA_fake_script() -- Button_3.Tween
 		end)
 	end)
 end
-coroutine.wrap(KOIA_fake_script)()
-local function NSQNJ_fake_script() -- TextLabel_2.ShowFPS 
+coroutine.wrap(NZOVHBY_fake_script)()
+local function CRPDGL_fake_script() -- TextLabel_2.ShowFPS 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local textLabel = script.Parent
@@ -535,8 +571,8 @@ local function NSQNJ_fake_script() -- TextLabel_2.ShowFPS
 	
 	
 end
-coroutine.wrap(NSQNJ_fake_script)()
-local function BSRRT_fake_script() -- Button_4.RedCharacterButton 
+coroutine.wrap(CRPDGL_fake_script)()
+local function PQYEGP_fake_script() -- Button_4.RedCharacterButton 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -560,8 +596,8 @@ local function BSRRT_fake_script() -- Button_4.RedCharacterButton
 	
 	
 end
-coroutine.wrap(BSRRT_fake_script)()
-local function RYEBF_fake_script() -- Button_4.Tween 
+coroutine.wrap(PQYEGP_fake_script)()
+local function ZWAMRA_fake_script() -- Button_4.Tween 
 	local script = Instance.new('LocalScript', Button_4)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -601,8 +637,8 @@ local function RYEBF_fake_script() -- Button_4.Tween
 		end)
 	end)
 end
-coroutine.wrap(RYEBF_fake_script)()
-local function HCQJCA_fake_script() -- Button_5.Tween 
+coroutine.wrap(ZWAMRA_fake_script)()
+local function NPBYTBN_fake_script() -- Button_5.Tween 
 	local script = Instance.new('LocalScript', Button_5)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -642,8 +678,8 @@ local function HCQJCA_fake_script() -- Button_5.Tween
 		end)
 	end)
 end
-coroutine.wrap(HCQJCA_fake_script)()
-local function CFUOY_fake_script() -- Button_5.ButtonActivateLocal 
+coroutine.wrap(NPBYTBN_fake_script)()
+local function EUUFYP_fake_script() -- Button_5.ButtonActivateLocal 
 	local script = Instance.new('LocalScript', Button_5)
 
 	-- Code adapted directly from the gist: https://gist.github.com/Yuzakinasakun/aa97221dc1e47cabfcca574fe16c0bff.js
@@ -662,4 +698,49 @@ local function CFUOY_fake_script() -- Button_5.ButtonActivateLocal
 	    -- If you want to add more logic from the gist, paste it here
 	end)
 end
-coroutine.wrap(CFUOY_fake_script)()
+coroutine.wrap(EUUFYP_fake_script)()
+local function LPZB_fake_script() -- Button_6.TogglePopUpVisibility 
+	local script = Instance.new('LocalScript', Button_6)
+
+	local button = script.Parent
+	local screenGui = button.Parent
+	local popUp = screenGui:FindFirstChild("PopUp_FRM")
+	local TweenService = game:GetService("TweenService")
+	
+	local isVisible = false
+	
+	-- Store the original position of PopUp_FRM
+	local originalPosition
+	local offscreenPosition
+	local tweenTime = 0.4
+	
+	if popUp then
+	    originalPosition = popUp.Position
+	    -- Move offscreen by increasing Y scale (moves down, but keeps X unchanged)
+	    offscreenPosition = UDim2.new(originalPosition.X.Scale, originalPosition.X.Offset, originalPosition.Y.Scale + 1, originalPosition.Y.Offset)
+	    popUp.Visible = false
+	    popUp.Position = offscreenPosition
+	end
+	
+	button.MouseButton1Click:Connect(function()
+	    if not popUp then return end
+	    isVisible = not isVisible
+	
+	    if isVisible then
+	        popUp.Visible = true
+	        -- Animate upwards to original position, set upright
+	        local tweenUp = TweenService:Create(popUp, TweenInfo.new(tweenTime, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Position = originalPosition, Rotation = 0})
+	        tweenUp:Play()
+	    else
+	        -- Animate downwards (offscreen), then hide
+	        local tweenDown = TweenService:Create(popUp, TweenInfo.new(tweenTime, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {Position = offscreenPosition})
+	        tweenDown:Play()
+	        tweenDown.Completed:Connect(function()
+	            popUp.Visible = false
+	        end)
+	    end
+	end)
+	
+	
+end
+coroutine.wrap(LPZB_fake_script)()
