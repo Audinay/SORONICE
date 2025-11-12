@@ -1,18 +1,8 @@
-                                                                                                                                                                         
-                                                                                                                                                                     
-                                                                                                                                                                                 
-                                                                                                                                                                                       
-                                                                                                                                                                      
-      / / /                      / / /          ////////                                                                                                                          
-   /        /                 /        /        /       /                                                                                            
-   /        /                /          /       /         /                                                                                                    
-     /     /               /             /      /          /                                                                                                     
-       /                  /               /     /          /                                                                                                                       
-         /                /               /     /         /                                                                                                   
-           /               /              /     / / / / /                                                                                                          
-/           /               /           /       /        /                                                                                                                  
- /         /                 /        /         /         /                                                                                                                       
-  ////////                    ///////           /          /                                                                                                                               
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
 local ScreenGui = Instance.new("ScreenGui")
 local PopUp_FRM = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
