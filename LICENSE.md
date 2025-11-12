@@ -1,5 +1,4 @@
--- Gui to Lua
--- Version: 3.2
+--SORONICE:v1
 
 -- Instances:
 
@@ -22,6 +21,9 @@ local TextLabel_2 = Instance.new("TextLabel")
 local Button_4 = Instance.new("TextButton")
 local UIGradient_5 = Instance.new("UIGradient")
 local UICorner_5 = Instance.new("UICorner")
+local Button_5 = Instance.new("TextButton")
+local UIGradient_6 = Instance.new("UIGradient")
+local UICorner_6 = Instance.new("UICorner")
 
 --Properties:
 
@@ -47,8 +49,8 @@ Button.Parent = PopUp_FRM
 Button.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button.BorderSizePixel = 0
-Button.Position = UDim2.new(0.0856153369, 0, 0.119546004, 0)
-Button.Size = UDim2.new(0.823188424, 0, 0.14171657, 0)
+Button.Position = UDim2.new(0.0856152847, 0, 0.119545974, 0)
+Button.Size = UDim2.new(0.823188484, 0, 0.117717139, 0)
 Button.Font = Enum.Font.Unknown
 Button.Text = "..."
 Button.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -67,8 +69,8 @@ Button_2.Parent = PopUp_FRM
 Button_2.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 Button_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_2.BorderSizePixel = 0
-Button_2.Position = UDim2.new(0.0856153592, 0, 0.311301082, 0)
-Button_2.Size = UDim2.new(0.823188424, 0, 0.14171657, 0)
+Button_2.Position = UDim2.new(0.0786053985, 0, 0.708624959, 0)
+Button_2.Size = UDim2.new(0.823188424, 0, 0.0990509093, 0)
 Button_2.Font = Enum.Font.Unknown
 Button_2.Text = "..."
 Button_2.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -87,8 +89,8 @@ Button_3.Parent = PopUp_FRM
 Button_3.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 Button_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_3.BorderSizePixel = 0
-Button_3.Position = UDim2.new(0.0856153592, 0, 0.507733226, 0)
-Button_3.Size = UDim2.new(0.823188424, 0, 0.14171657, 0)
+Button_3.Position = UDim2.new(0.0856153667, 0, 0.42773506, 0)
+Button_3.Size = UDim2.new(0.823188424, 0, 0.101717524, 0)
 Button_3.Font = Enum.Font.Unknown
 Button_3.Text = "..."
 Button_3.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -138,8 +140,8 @@ Button_4.Parent = PopUp_FRM
 Button_4.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 Button_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_4.BorderSizePixel = 0
-Button_4.Position = UDim2.new(0.0856153592, 0, 0.699488342, 0)
-Button_4.Size = UDim2.new(0.823188424, 0, 0.14171657, 0)
+Button_4.Position = UDim2.new(0.0856153667, 0, 0.566158056, 0)
+Button_4.Size = UDim2.new(0.823188424, 0, 0.101717524, 0)
 Button_4.Font = Enum.Font.Unknown
 Button_4.Text = "..."
 Button_4.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -153,9 +155,29 @@ UIGradient_5.Parent = Button_4
 
 UICorner_5.Parent = Button_4
 
+Button_5.Name = "Button"
+Button_5.Parent = PopUp_FRM
+Button_5.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
+Button_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.BorderSizePixel = 0
+Button_5.Position = UDim2.new(0.0821103826, 0, 0.281968415, 0)
+Button_5.Size = UDim2.new(0.823188424, 0, 0.0990509093, 0)
+Button_5.Font = Enum.Font.Unknown
+Button_5.Text = "FLY"
+Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+Button_5.TextScaled = true
+Button_5.TextSize = 14.000
+Button_5.TextWrapped = true
+
+UIGradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(98, 98, 98)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_6.Rotation = -90
+UIGradient_6.Parent = Button_5
+
+UICorner_6.Parent = Button_5
+
 -- Scripts:
 
-local function ZNAUIHB_fake_script() -- Button.InfiniteJumpButton 
+local function EOGLKHB_fake_script() -- Button.InfiniteJumpButton 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -188,20 +210,20 @@ local function ZNAUIHB_fake_script() -- Button.InfiniteJumpButton
 	    infiniteJumpEnabled = not infiniteJumpEnabled
 	    if infiniteJumpEnabled then
 	        enableInfiniteJump()
-	        button.Text = "Infinite Jump: ON"
+	        button.Text = "Infinite Jump "
 	    else
 	        disableInfiniteJump()
-	        button.Text = "Infinite Jump: OFF"
+	        button.Text = "Infinite Jump "
 	    end
 	end)
 	
 	-- Optional: Set initial button text
-	button.Text = "Infinite Jump: OFF"
+	button.Text = "Infinite Jump "
 	
 	
 end
-coroutine.wrap(ZNAUIHB_fake_script)()
-local function UTRMJXZ_fake_script() -- Button.Tween 
+coroutine.wrap(EOGLKHB_fake_script)()
+local function PZXXRO_fake_script() -- Button.Tween 
 	local script = Instance.new('LocalScript', Button)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -241,8 +263,49 @@ local function UTRMJXZ_fake_script() -- Button.Tween
 		end)
 	end)
 end
-coroutine.wrap(UTRMJXZ_fake_script)()
-local function HCLIYC_fake_script() -- Button_2.FlyButton 
+coroutine.wrap(PZXXRO_fake_script)()
+local function FAGVAEM_fake_script() -- Button_2.Tween 
+	local script = Instance.new('LocalScript', Button_2)
+
+	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
+	
+	local btn = script.Parent
+	local TS = game:GetService("TweenService")
+	
+	local origSize = btn.Size
+	local hoverScl = 1.1
+	local clickScl = 0.9
+	local tInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+	
+	local function makeTween(scl)
+		local newSize = UDim2.new(
+			origSize.X.Scale * scl,
+			origSize.X.Offset * scl,
+			origSize.Y.Scale * scl,
+			origSize.Y.Offset * scl
+		)
+		return TS:Create(btn, tInfo, {Size = newSize})
+	end
+	
+	btn.MouseEnter:Connect(function()
+		makeTween(hoverScl):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		makeTween(1):Play()
+	end)
+	
+	btn.MouseButton1Click:Connect(function()
+		local shrink = makeTween(clickScl)
+		local reset = makeTween(1)
+		shrink:Play()
+		shrink.Completed:Connect(function()
+			reset:Play()
+		end)
+	end)
+end
+coroutine.wrap(FAGVAEM_fake_script)()
+local function FDYM_fake_script() -- Button_2.FlyButton 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local button = script.Parent
@@ -345,60 +408,19 @@ local function HCLIYC_fake_script() -- Button_2.FlyButton
 	    flyEnabled = not flyEnabled
 	    if flyEnabled then
 	        enableFly()
-	        button.Text = "Fly: ON"
+			button.Text = "kill"
 	    else
 	        disableFly()
-	        button.Text = "Fly: OFF"
+			button.Text = "kill"
 	    end
 	end)
 	
-	button.Text = "Fly: OFF"
+	button.Text = "kill"
 	
 	
 end
-coroutine.wrap(HCLIYC_fake_script)()
-local function ULNWSYF_fake_script() -- Button_2.Tween 
-	local script = Instance.new('LocalScript', Button_2)
-
-	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
-	
-	local btn = script.Parent
-	local TS = game:GetService("TweenService")
-	
-	local origSize = btn.Size
-	local hoverScl = 1.1
-	local clickScl = 0.9
-	local tInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
-	
-	local function makeTween(scl)
-		local newSize = UDim2.new(
-			origSize.X.Scale * scl,
-			origSize.X.Offset * scl,
-			origSize.Y.Scale * scl,
-			origSize.Y.Offset * scl
-		)
-		return TS:Create(btn, tInfo, {Size = newSize})
-	end
-	
-	btn.MouseEnter:Connect(function()
-		makeTween(hoverScl):Play()
-	end)
-	
-	btn.MouseLeave:Connect(function()
-		makeTween(1):Play()
-	end)
-	
-	btn.MouseButton1Click:Connect(function()
-		local shrink = makeTween(clickScl)
-		local reset = makeTween(1)
-		shrink:Play()
-		shrink.Completed:Connect(function()
-			reset:Play()
-		end)
-	end)
-end
-coroutine.wrap(ULNWSYF_fake_script)()
-local function ETVELUZ_fake_script() -- Button_3.NoclipButton 
+coroutine.wrap(FDYM_fake_script)()
+local function XOFS_fake_script() -- Button_3.NoclipButton 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -447,8 +469,8 @@ local function ETVELUZ_fake_script() -- Button_3.NoclipButton
 	
 	
 end
-coroutine.wrap(ETVELUZ_fake_script)()
-local function QIJVRKL_fake_script() -- Button_3.Tween 
+coroutine.wrap(XOFS_fake_script)()
+local function KOIA_fake_script() -- Button_3.Tween 
 	local script = Instance.new('LocalScript', Button_3)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -488,8 +510,8 @@ local function QIJVRKL_fake_script() -- Button_3.Tween
 		end)
 	end)
 end
-coroutine.wrap(QIJVRKL_fake_script)()
-local function GIQNW_fake_script() -- TextLabel_2.ShowFPS 
+coroutine.wrap(KOIA_fake_script)()
+local function NSQNJ_fake_script() -- TextLabel_2.ShowFPS 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local textLabel = script.Parent
@@ -513,8 +535,8 @@ local function GIQNW_fake_script() -- TextLabel_2.ShowFPS
 	
 	
 end
-coroutine.wrap(GIQNW_fake_script)()
-local function RDPMZH_fake_script() -- Button_4.RedCharacterButton 
+coroutine.wrap(NSQNJ_fake_script)()
+local function BSRRT_fake_script() -- Button_4.RedCharacterButton 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -538,4 +560,106 @@ local function RDPMZH_fake_script() -- Button_4.RedCharacterButton
 	
 	
 end
-coroutine.wrap(RDPMZH_fake_script)()
+coroutine.wrap(BSRRT_fake_script)()
+local function RYEBF_fake_script() -- Button_4.Tween 
+	local script = Instance.new('LocalScript', Button_4)
+
+	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
+	
+	local btn = script.Parent
+	local TS = game:GetService("TweenService")
+	
+	local origSize = btn.Size
+	local hoverScl = 1.1
+	local clickScl = 0.9
+	local tInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+	
+	local function makeTween(scl)
+		local newSize = UDim2.new(
+			origSize.X.Scale * scl,
+			origSize.X.Offset * scl,
+			origSize.Y.Scale * scl,
+			origSize.Y.Offset * scl
+		)
+		return TS:Create(btn, tInfo, {Size = newSize})
+	end
+	
+	btn.MouseEnter:Connect(function()
+		makeTween(hoverScl):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		makeTween(1):Play()
+	end)
+	
+	btn.MouseButton1Click:Connect(function()
+		local shrink = makeTween(clickScl)
+		local reset = makeTween(1)
+		shrink:Play()
+		shrink.Completed:Connect(function()
+			reset:Play()
+		end)
+	end)
+end
+coroutine.wrap(RYEBF_fake_script)()
+local function HCQJCA_fake_script() -- Button_5.Tween 
+	local script = Instance.new('LocalScript', Button_5)
+
+	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
+	
+	local btn = script.Parent
+	local TS = game:GetService("TweenService")
+	
+	local origSize = btn.Size
+	local hoverScl = 1.1
+	local clickScl = 0.9
+	local tInfo = TweenInfo.new(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut)
+	
+	local function makeTween(scl)
+		local newSize = UDim2.new(
+			origSize.X.Scale * scl,
+			origSize.X.Offset * scl,
+			origSize.Y.Scale * scl,
+			origSize.Y.Offset * scl
+		)
+		return TS:Create(btn, tInfo, {Size = newSize})
+	end
+	
+	btn.MouseEnter:Connect(function()
+		makeTween(hoverScl):Play()
+	end)
+	
+	btn.MouseLeave:Connect(function()
+		makeTween(1):Play()
+	end)
+	
+	btn.MouseButton1Click:Connect(function()
+		local shrink = makeTween(clickScl)
+		local reset = makeTween(1)
+		shrink:Play()
+		shrink.Completed:Connect(function()
+			reset:Play()
+		end)
+	end)
+end
+coroutine.wrap(HCQJCA_fake_script)()
+local function CFUOY_fake_script() -- Button_5.ButtonActivateLocal 
+	local script = Instance.new('LocalScript', Button_5)
+
+	-- Code adapted directly from the gist: https://gist.github.com/Yuzakinasakun/aa97221dc1e47cabfcca574fe16c0bff.js
+	-- This script runs only in the button
+	
+	local button = script.Parent
+	
+	button.MouseButton1Click:Connect(function()
+	    -- Example logic from the gist (replace with actual gist code as needed)
+	    -- For demonstration, let's show a message and disable the button
+	    button.Text = "Activé !"
+	    button.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+	    button.Active = false
+	    button.AutoButtonColor = false
+	
+	    -- If you want to add more logic from the gist, paste it here
+	end)
+end
+coroutine.wrap(CFUOY_fake_script)()
