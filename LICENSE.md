@@ -1,7 +1,7 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+--SORONICE
+--https://discord.gg/S3GpUTKm
+--Appelez-moi pour tout problème
+--Toujours en création
 
 local ScreenGui = Instance.new("ScreenGui")
 local PopUp_FRM = Instance.new("Frame")
@@ -39,7 +39,7 @@ PopUp_FRM.Parent = ScreenGui
 PopUp_FRM.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 PopUp_FRM.BorderColor3 = Color3.fromRGB(0, 0, 0)
 PopUp_FRM.BorderSizePixel = 0
-PopUp_FRM.Position = UDim2.new(0.00831441674, 0, 0.144314036, 0)
+PopUp_FRM.Position = UDim2.new(0.035796687, 0, 0.142337754, 0)
 PopUp_FRM.Size = UDim2.new(0.252932549, 0, 0.741124272, 0)
 PopUp_FRM.Visible = false
 
@@ -168,7 +168,7 @@ Button_5.BorderSizePixel = 0
 Button_5.Position = UDim2.new(0.0821103826, 0, 0.281968415, 0)
 Button_5.Size = UDim2.new(0.823188424, 0, 0.0990509093, 0)
 Button_5.Font = Enum.Font.Unknown
-Button_5.Text = "FLY"
+Button_5.Text = "..."
 Button_5.TextColor3 = Color3.fromRGB(0, 0, 0)
 Button_5.TextScaled = true
 Button_5.TextSize = 14.000
@@ -185,8 +185,8 @@ Button_6.Parent = ScreenGui
 Button_6.BackgroundColor3 = Color3.fromRGB(85, 255, 119)
 Button_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Button_6.BorderSizePixel = 0
-Button_6.Position = UDim2.new(0.517154872, 0, 0.0118577071, 0)
-Button_6.Size = UDim2.new(0, 118, 0, 50)
+Button_6.Position = UDim2.new(0.46238181, 0, 0.0257852823, 0)
+Button_6.Size = UDim2.new(0, 80, 0, 50)
 Button_6.Font = Enum.Font.SourceSansBold
 Button_6.Text = "Admin"
 Button_6.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -203,7 +203,7 @@ UIGradient_7.Parent = Button_6
 
 -- Scripts:
 
-local function SZZYE_fake_script() -- Button.InfiniteJumpButton 
+local function DYAKSJ_fake_script() -- Button.InfiniteJumpButton 
 	local script = Instance.new('LocalScript', Button)
 
 	local button = script.Parent
@@ -248,8 +248,8 @@ local function SZZYE_fake_script() -- Button.InfiniteJumpButton
 	
 	
 end
-coroutine.wrap(SZZYE_fake_script)()
-local function YWEWUWH_fake_script() -- Button.Tween 
+coroutine.wrap(DYAKSJ_fake_script)()
+local function PUOKK_fake_script() -- Button.Tween 
 	local script = Instance.new('LocalScript', Button)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -289,8 +289,8 @@ local function YWEWUWH_fake_script() -- Button.Tween
 		end)
 	end)
 end
-coroutine.wrap(YWEWUWH_fake_script)()
-local function JVTJTSZ_fake_script() -- Button_2.Tween 
+coroutine.wrap(PUOKK_fake_script)()
+local function HSWH_fake_script() -- Button_2.Tween 
 	local script = Instance.new('LocalScript', Button_2)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -330,8 +330,8 @@ local function JVTJTSZ_fake_script() -- Button_2.Tween
 		end)
 	end)
 end
-coroutine.wrap(JVTJTSZ_fake_script)()
-local function TPMMCSQ_fake_script() -- Button_2.FlyButton 
+coroutine.wrap(HSWH_fake_script)()
+local function ERRTND_fake_script() -- Button_2.FlyButton 
 	local script = Instance.new('LocalScript', Button_2)
 
 	local button = script.Parent
@@ -445,8 +445,8 @@ local function TPMMCSQ_fake_script() -- Button_2.FlyButton
 	
 	
 end
-coroutine.wrap(TPMMCSQ_fake_script)()
-local function WLSPPAM_fake_script() -- Button_3.NoclipButton 
+coroutine.wrap(ERRTND_fake_script)()
+local function BHIB_fake_script() -- Button_3.NoclipButton 
 	local script = Instance.new('LocalScript', Button_3)
 
 	local button = script.Parent
@@ -495,8 +495,8 @@ local function WLSPPAM_fake_script() -- Button_3.NoclipButton
 	
 	
 end
-coroutine.wrap(WLSPPAM_fake_script)()
-local function NZOVHBY_fake_script() -- Button_3.Tween 
+coroutine.wrap(BHIB_fake_script)()
+local function GWTC_fake_script() -- Button_3.Tween 
 	local script = Instance.new('LocalScript', Button_3)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -536,8 +536,8 @@ local function NZOVHBY_fake_script() -- Button_3.Tween
 		end)
 	end)
 end
-coroutine.wrap(NZOVHBY_fake_script)()
-local function CRPDGL_fake_script() -- TextLabel_2.ShowFPS 
+coroutine.wrap(GWTC_fake_script)()
+local function KVMMY_fake_script() -- TextLabel_2.ShowFPS 
 	local script = Instance.new('LocalScript', TextLabel_2)
 
 	local textLabel = script.Parent
@@ -561,8 +561,8 @@ local function CRPDGL_fake_script() -- TextLabel_2.ShowFPS
 	
 	
 end
-coroutine.wrap(CRPDGL_fake_script)()
-local function PQYEGP_fake_script() -- Button_4.RedCharacterButton 
+coroutine.wrap(KVMMY_fake_script)()
+local function PFFGA_fake_script() -- Button_4.RedCharacterButton 
 	local script = Instance.new('LocalScript', Button_4)
 
 	local button = script.Parent
@@ -586,8 +586,8 @@ local function PQYEGP_fake_script() -- Button_4.RedCharacterButton
 	
 	
 end
-coroutine.wrap(PQYEGP_fake_script)()
-local function ZWAMRA_fake_script() -- Button_4.Tween 
+coroutine.wrap(PFFGA_fake_script)()
+local function FWNDXR_fake_script() -- Button_4.Tween 
 	local script = Instance.new('LocalScript', Button_4)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -627,8 +627,8 @@ local function ZWAMRA_fake_script() -- Button_4.Tween
 		end)
 	end)
 end
-coroutine.wrap(ZWAMRA_fake_script)()
-local function NPBYTBN_fake_script() -- Button_5.Tween 
+coroutine.wrap(FWNDXR_fake_script)()
+local function PBEYRM_fake_script() -- Button_5.Tween 
 	local script = Instance.new('LocalScript', Button_5)
 
 	--// This is a hover & click effect, i suggest you test this on pc. because it requires a mouse for hovering over the button.
@@ -668,28 +668,36 @@ local function NPBYTBN_fake_script() -- Button_5.Tween
 		end)
 	end)
 end
-coroutine.wrap(NPBYTBN_fake_script)()
-local function EUUFYP_fake_script() -- Button_5.ButtonActivateLocal 
+coroutine.wrap(PBEYRM_fake_script)()
+local function CVNMT_fake_script() -- Button_5.FlyScriptLoaderOnButtonClick 
 	local script = Instance.new('LocalScript', Button_5)
 
-	-- Code adapted directly from the gist: https://gist.github.com/Yuzakinasakun/aa97221dc1e47cabfcca574fe16c0bff.js
-	-- This script runs only in the button
-	
 	local button = script.Parent
 	
 	button.MouseButton1Click:Connect(function()
-	    -- Example logic from the gist (replace with actual gist code as needed)
-	    -- For demonstration, let's show a message and disable the button
-	    button.Text = "Activé !"
-	    button.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
-	    button.Active = false
-	    button.AutoButtonColor = false
-	
-	    -- If you want to add more logic from the gist, paste it here
+	    -- WARNING: loadstring and HttpGet are not available in standard Roblox games!
+	    -- This code will only work in exploit environments or with special permissions.
+	    local success, err = pcall(function()
+	        loadstring(game:HttpGet("https://raw.githubusercontent.com/RadeonScripts/Universal/refs/heads/main/FlyScript"))()
+	    end)
+	    if not success then
+	        warn("Failed to execute FlyScript: " .. tostring(err))
+	    end
 	end)
+	
+	
 end
-coroutine.wrap(EUUFYP_fake_script)()
-local function LPZB_fake_script() -- Button_6.TogglePopUpVisibility 
+coroutine.wrap(CVNMT_fake_script)()
+local function QNNITOU_fake_script() -- Button_5.SetButtonNameToFly 
+	local script = Instance.new('LocalScript', Button_5)
+
+	local button = script.Parent
+	button.Text = "fly"
+	
+	
+end
+coroutine.wrap(QNNITOU_fake_script)()
+local function CANDS_fake_script() -- Button_6.TogglePopUpVisibility 
 	local script = Instance.new('LocalScript', Button_6)
 
 	local button = script.Parent
@@ -733,4 +741,4 @@ local function LPZB_fake_script() -- Button_6.TogglePopUpVisibility
 	
 	
 end
-coroutine.wrap(LPZB_fake_script)()
+coroutine.wrap(CANDS_fake_script)()
